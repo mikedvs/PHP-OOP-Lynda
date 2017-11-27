@@ -22,11 +22,12 @@ class Board {
         $this->weight_kg = floatval($value);
     }
 
-    public function get_weight_kgx() {
+    public function get_weight_kg() {
         return $this->weight_kg;
     }
 }
 
+// Subclass
 class SkateBoard extends Board {
 
     protected $wheels = 4;
