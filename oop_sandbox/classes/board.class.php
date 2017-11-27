@@ -1,5 +1,6 @@
 <?php 
 
+echo "this exists";
 class Board {
 
     public static $instance_count = 0;
@@ -9,7 +10,7 @@ class Board {
     public $year = 'Unknown';
     public $category;
     public $description;
-    private $weight_kg = 0.0;
+    private $weight_kg = 0.2;
     protected $wheels = 2;
 
     public const CATEGORIES = ['Bowl', 'Vert', 'Reef', 'PointBreak', 'Slab', 'Street'];
@@ -40,5 +41,5 @@ class Board {
         return $this->weight_kg;
     }
 }
-
+echo "that exists";
 ?>
